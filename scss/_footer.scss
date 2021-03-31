@@ -1,0 +1,53 @@
+
+/* SECCIÓN FOOTER  DE TODAS LAS PÁGINAS*/
+
+footer{
+    padding: 70px;
+    width: $widthMax;
+    height: auto;
+    background: $colorFootNav;
+    margin-top: 35px;
+}
+
+.txtFooter1{
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.txtFooter3{
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.txtFooter{
+    font-size: 14px;
+    line-height: 8px;
+}
+
+.txtFooter{
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.titNav{
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: $black;
+}
+
+.noIndex{
+    width: 1116px;
+    margin-left: 81.2px;
+}
+
+.enlace{
+    text-decoration: none;
+    color: $black;
+}
+
+.enlace:hover{
+    color: $white;
+}
+
+/*FIN ESTILO FOOTER*/

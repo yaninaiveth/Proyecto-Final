@@ -1,0 +1,156 @@
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 640px) and (min-width: 480px) {
+    /*SECCIÓN INFORMACIÓN*/
+    .imgRes1{
+        width: 120px;
+    }
+
+    .containertxt__div{
+        margin-left: 0;
+    }
+
+    .imgInf{
+        margin-top: 0;
+    }
+
+    .graficos{
+        margin-left: 30px;
+    }
+
+    .ley{
+        margin:0;
+    }
+
+    .bal{
+        display: none;
+    }
+
+    .titley{
+        margin-right: 0;
+    }
+ }
+
+ @media screen and (max-width: 768px) and (min-width: 600px){
+    .imgRes1{
+        width: 120px;
+    }
+
+    .containertxt__div{
+        margin-left: 0;
+    }
+
+    .imgInf{
+        margin-top: 0;
+    }
+
+    .graficos{
+        margin-left: 30px;
+    }
+
+    .ley{
+        margin:0;
+    }
+
+    .bal{
+        margin-left: 160px;
+        margin-bottom: 0;
+        width: 100px;
+    }
+
+    .titley{
+        margin-right: 0;
+    }
+
+ }
+
+ @media screen and (max-width: 900px) and (min-width: 768px){
+    .imgInf{
+        width: 300px;
+        transform: translateY(30px);
+    }
+
+    .imgRes1{
+        transform: translateY(50px);
+        width: 180px;
+    }
+
+    .containertxt__div{
+        margin-left: 0;
+    }
+
+    .imgInf{
+        margin-top: 0;
+    }
+
+    .graficos{
+        margin-left: 0px;
+    }
+
+    .indicador{
+        margin-top: 0;
+    }
+
+    .ley{
+        margin:0;
+    }
+
+    .bal{
+        margin-left: 160px;
+        margin-bottom: 0;
+        width: 100px;
+    }
+
+    .titley{
+        margin-right: 150px;
+        margin-top: 0;
+    }
+
+ }
+
+ @media screen and (max-width: 1200px) and (min-width: 900px) {
+    .imgRes1{
+        transform: translateY(50px);
+        width: 180px;
+    }
+
+    .graficos{
+        margin-left: 0px;
+    }
+
+    .indicador{
+        margin-top: 0;
+    }
+
+    .bal{
+        margin-left: 350px;
+        margin-bottom: 0;
+        margin-top: 20px;
+        width: 100px;
+    }
+
+    .titley{
+        margin-right: 300px;
+        margin-top: 10px;
+    }
+
+ }
+
+ @media screen and (max-width: 1200px) and (min-width: 900px){
+    .bal{
+        margin-left: 100px;
+        margin-bottom: 0;
+        margin-top: 20px;
+        width: 100px;
+        transform: translateX(-50px);
+    }
+
+    .titley{
+        margin-right: 280px;
+        margin-top: 10px;
+    }
+
+ }
+
+ /*FIN RESPONSIVE*/

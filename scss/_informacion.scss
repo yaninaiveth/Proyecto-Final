@@ -1,0 +1,148 @@
+
+/*COMIENZO DE ESTILO DE SECCIÓN INFORMACIÓN*/
+
+.imgInf{
+    width: 80%;
+    object-fit: hidden;
+    opacity: 0.6;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+
+.containertxt1__div,
+.containertxt2__div{
+    width: 100%;
+    transition: .3s ease;
+    margin-top: 20px auto auto auto;
+    
+    &:hover {
+      transform: translateY(-10px) scale(1.02);
+        .txt1{
+              background-position: -100% 0;
+
+        }
+
+        .tith4{
+            background-position: -100% 0;
+        }
+          
+          &:hover{
+              .imgInf{
+                  opacity: 1;
+              }
+          }
+
+        }
+}
+
+.containertxt2__div{
+    margin-left: 60px;
+    margin: 20px;
+}
+
+.containertxt__div{
+    background: $colorPrinc;
+    padding: 15px;
+    padding-top: 50px;
+
+    h2{
+        text-align: center;
+        color: $white;
+    }
+}
+
+.tith3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.tith4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.cif{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px; 
+}
+.graficos{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+.graf1{
+    height: 50px;
+    width: 80%;
+    background: $colorTerc;
+
+    p{
+        color: $white;
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
+
+.graf2{
+    height: 50px;
+    width: 55%;
+    background: $colorCua;
+
+    p{
+        color: $white;
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
+
+.indicador{
+    margin-top: 30px;
+}
+
+.p1{
+    color: $colorTerc;
+    font-size: 25px;
+}
+.p2{
+    color: $colorCua;
+    font-size: 25px;
+}
+
+.parrafo{
+    text-align: justify;
+}
+
+.femi{
+    margin-top: 40px;
+}
+
+.ley{
+    margin-top: 20px;
+    padding: 20px
+}
+
+.bal{
+    margin-left: 400px;
+    margin-bottom: 30px;
+}
+
+.titley{
+    margin-right: 450px;
+    margin-top: 50px;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.oracion{
+    text-align: center;
+}
+
+/*FIN ESTILO SECCIÓN INFORMACÓN*/

@@ -1,0 +1,60 @@
+
+/* COMIENZO ESTILO SECCIÓN REDES DE APOYO */
+
+.divNum{
+    margin-top: 80px;
+    background: $colorPrinc;
+    padding: 25px;
+    border-radius: 10px;
+
+    .titNum{
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 40px;
+        color: $white;
+    }
+}
+
+.inadi{
+    margin-top: 60px;
+}
+
+.imgInadi, .imgDir{
+    border-radius: 10px;
+}
+
+.textIna{
+    text-align: center;
+}
+
+.linRos{
+    font-size: 40px;
+    text-align: center;
+    color: $white;
+}
+
+.dirM{
+    margin-top: 40px;
+}
+
+.h-100{
+    border:none;
+}
+
+.g-4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.textSection{
+    text-align: justify;
+}
+
+.card-body{
+    box-shadow: $shadow2;
+    overflow: hidden;
+    text-align: justify;
+    transition: $transition2;
+}
+
+/* FIN ESTILO SECCIÓN REDES DE APOYO */

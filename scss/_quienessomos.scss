@@ -1,0 +1,50 @@
+
+/*COMIENZO ESTILO SECCIÓN QUIENES SOMOS*/
+
+.bodyQS{
+    width: 100%;
+}
+  
+.Sub{
+    margin-top: 40px;
+    text-align: center;
+}
+  
+.card2{
+    width: 100%;
+    padding: 30px;
+    background: $colorSec;
+    margin: auto;
+    transition: .3s ease;
+    box-shadow: 0 1px 1px rgba(0,0,0,.3);
+      
+      &:hover {
+        box-shadow: 0 5px 20px rgba(0,0,0,.8);
+        transform: translateY(-10px) scale(1.02);
+          .entry-title{
+                background-position: -100% 0;
+            } 
+      }
+}
+  
+.card2 .entry-title{
+      background: linear-gradient(to right, rgba(255,255,255,0) 50%, rgb(181, 24, 240) 20%);
+      background-size: 200%;
+      background-position: 0 0;
+      display: inline;
+      transition: .5s ease-in-out;
+      color: $white;
+      text-align: right;
+}
+
+.box p,
+.box .nom{
+    text-align: center;
+}
+
+.box{
+    margin-top: 35px;
+}
+
+/*FIN ESTILO SECCIÓ QUIENES SOMOS*/
+
